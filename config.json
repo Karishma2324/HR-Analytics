@@ -1,0 +1,8 @@
+{
+  "DATA_PATH": "data/employee_promotion.csv",
+  "TARGET_COL": "is_promoted",
+  "NUMERIC_COLS": ["age", "length_of_service", "avg_training_score", "previous_year_rating"],
+  "CATEGORICAL_COLS": ["department", "education", "recruitment_channel", "gender", "region"],
+  "TEST_SIZE": 0.2,
+  "RANDOM_STATE": 42
+}
